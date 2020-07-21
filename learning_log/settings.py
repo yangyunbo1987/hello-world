@@ -146,8 +146,8 @@ if os.getcwd() == '/app':
     SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
     # Only allow heroku to host the project.
-    ALLOWED_HOSTS =['*']
-    #ALLOWED_HOSTS = ['learning-log-final.herokuapp.com']
+    #ALLOWED_HOSTS =['*']
+    ALLOWED_HOSTS = ['yangyunbo-learning-log.herokuapp.com']
     DEBUG = False
 
     # Static asset configuration
